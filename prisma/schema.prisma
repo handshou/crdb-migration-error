@@ -4,6 +4,7 @@
 datasource db {
   provider = "postgresql"
   url      = "postgres://root:root@localhost:26257/app"
+  shadowDatabaseUrl = "postgres://root:root@localhost:26258/app"
 }
 
 generator client {
